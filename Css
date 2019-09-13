@@ -1,0 +1,49 @@
+body {
+	background-image: url(http://www.kabu-load.net/data/out/100/IMG_32785.jpg);
+}
+h1{
+font-size:75px;
+text-align: Center;
+color: white;
+}
+nav li{
+	display: inline-block;
+	margin-right: 40px;
+    list-style-type: none;
+}
+nav a {
+	color: White;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: Center;
+}
+nav { 
+float: Center;
+}
+div {
+	text-align:Center;
+}
+.Car {
+	color: White;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: Center;
+	
+}
+.box{
+	width:600px;
+	height:700px;
+	position:fixed;
+	right:75px;
+	left:655px;
+	border:10px Solid purple;
+}
+.white{
+	background:White;
+}
+.Annan {
+	color: Purple;
+}
+.info{
+	color: black;
+}
