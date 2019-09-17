@@ -7,15 +7,21 @@
 <link href="Style.css" rel="Stylesheet"> 
   </head>
   <body>
-  <div>
+  <ul class="Learn">
+  <p> Toms Homepage Contains:</p>
+	<li>Information about the first car</li>
+	<li>Most used car brands in the US 2018</li>
+	<li>Some fancy car pictures</li>
+</ul>
+  <main>
 <h1>Toms Homepage</h1>
   <nav>
   <ul>
-  <li><a href="">✪Home✪</a></li>
-   <li><a href="../Car%20History.html">✪Car History✪</a></li>
+  <li><a class="Annan2">✪Home✪</a></li>
+   <li><a href="CarHistory.html">✪Car History✪</a></li>
     <li><a href="">✪Pictures✪</a></li>
 </ul>
 </nav>
-</div>
+</main>
   </body>
 </html>
