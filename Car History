@@ -7,17 +7,17 @@
 <link href="Style.css" rel="Stylesheet"> 
   </head>
   <body>
-  <div>
+  <main>
 <h1>Toms Homepage</h1>
   <nav class="Car History">
   <ul>
-  <li><a href="webb.html">✪Home✪</a></li>
+  <li><a href="Homepage.html">✪Home✪</a></li>
    <li class="Annan färg">✪Car History✪ </li>
     <li><a href="">✪Pictures✪</a></li>
 </ul>
 </nav>
-</div>
-<div class="box white">
+</main>
+<main class="box white">
 <h2 class="info">First Car</h2> 
 <p> Cars came into global use during the 20th century, and developed economies depend on them. 
 The year 1886 is regarded as the birth year of the modern car when German inventor Karl Benz patented his Benz Patent-Motorwagen. 
@@ -58,7 +58,31 @@ making them progressively more complex, but also more reliable and easier to ope
     <td>Honda</td>
      <td>Rav4</td>
   </tr>
+  <tr>
+    <td>Nissan</td>
+    <td>X-Trail/Rogue</td>
+       
+  </tr>
+  <tr>
+    <td>Hyundai</td>
+    <td>Cr-V</td>
+       
+  </tr>
+  <tr>
+    <td>Chevrolet</td>
+    <td>Golf</td>
+       
+  </tr>
+  <tr>
+    <td>Suzuki</td>
+    <td>Passat/Magotan</td>
+       
+  </tr>
+  <tr>
+    <td>KIA</td>
+    <td>Silverado</td>
+   </tr>
     </table>
-</div>
+</main>
   </body>
 </html>
