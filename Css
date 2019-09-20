@@ -2,9 +2,9 @@ body {
 	background-image: url(http://www.kabu-load.net/data/out/100/IMG_32785.jpg);
 }
 h1{
-font-size:75px;
-text-align: Center;
-color: white;
+	font-size:75px;
+	text-align: Center;
+	color: white;
 }
 nav li{
 	display: inline-block;
@@ -18,22 +18,30 @@ nav a {
 	text-align: Center;
 }
 nav { 
-float: Center;
+	float: inherit;
 }
-main {
+header {
 	text-align:Center;
+}
+h2 {
+	color:white;	
 }
 .Car {
 	color: White;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: Center;
-	
+}
+.Picture1,.Picture2 {
+	border: 5px solid purple;
+	width: 49%;
+}
+.Picture2{
+	height: 522px;
 }
 .box{
-	width:600px;
+	width:1880px;
 	height:700px;
-	position:fixed;
 	right:75px;
 	left:655px;
 	border:10px Solid purple;
@@ -44,11 +52,14 @@ main {
 .Annan {
 	color: Purple;
 }
-.Annan2{
-color: Purple;
-}
 .info{
 	color: black;
+}
+.List{
+	color: white;
+
+	top: 10px;
+	font-size: 20px;
 }
 table, th, tr, td {
 	border: 1px solid black;
@@ -57,22 +68,17 @@ table, th, tr, td {
 }
 caption {
 	caption-side:top;
-	font-size:20px;
+	font-size:30px;
 	text-align:center;
 	 
 }
-ul.Learn {
-	color:white;
-	font-size:15px;
 	
-}
-	
-tr:nth-child(2), tr:nth-child(4),tr:nth-child(6),tr:nth-child(8), tr:nth-child(10) {
+tr:nth-child(2), tr:nth-child(4) {
 	background-color: purple;
 	color:white;
 }
 th:nth-child(1){
-	text-align: center;
+	text-align: left;
 }
 th:nth-child(4){
 	text-align: right;
@@ -83,6 +89,6 @@ td:nth-child(3), td:nth-child(2){
 td:nth-child(4){
 	text-align:right;
 }
-tr:nth-child(3), tr:nth-child(5),tr:nth-child(7),tr:nth-child(9)  {
+tr:nth-child(3), tr:nth-child(5){
 	background-color: lightGreen;
 }
