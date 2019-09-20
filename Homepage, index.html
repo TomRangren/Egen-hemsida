@@ -1,0 +1,28 @@
+<!DOCTYPE html><!--!DOCTYPE används så att webbläsaren ska kunna veta vilken version av HTML sidan använder-->
+<html lang="en"><!--html är en starttagg för sin hemsida och lang bestämmer språket på sidan-->
+	<head><!--Ligger överst i kodningen och det som står i head är det användaren inte ser-->
+		<meta charset="UTF-8"><!--En teckenkodning som fungerar för alla tecken i världen-->
+		<title>Toms Homepage</title><!--titel på sidan uppe över sök-baren-->
+		<link href="Style.css" rel="Stylesheet"> <!--Länkar sin CSS så att ändringarna gjorda i css kopplas till ens html-->
+	</head><!--Stänger kodningen inom head-->
+	<body><!--Ligger under head och det man skriver under body syns sedan på sidan-->
+		<Header><!--Användning istället för main och man kan ha många headers jämfört med main. -->
+		<h1>Toms Homepage</h1><!--Rubrik på sidan-->
+			<nav><!--Skapar en navigations lista som är kopplade till andra html sidor-->
+				<ul><!--Används för att skapa en lista-->
+					<li><a class="Annan" href="index.html">✪Home✪</a></li>
+					<li><a href="Car%20History.html">✪Car History✪</a></li><!--Det man skriver i li är det man vill ska vara listat i sin lista. I detta fall länkar jag till en annan html sida-->
+					<li><a href="Pictures.html">✪Pictures✪</a></li>
+				</ul><!--Avslutar det man vill ha i listan-->
+			</nav><!--Stänger av det man ville ha i sin navigations lista-->
+		</Header><!--Avslutar kodningen inom header-->
+		<main><!--specificerar sig i det viktiga innehållet på sidan-->
+		<h2>Things you'll learn on Toms Homepage🚗</h2><!--Sätter en rubrik på html sidan, i detta fall över pungtlistan-->
+			<ul class="List"><!--Skapar en lista och gör en egen class så det blir enkelt att dekorera i css-->		
+				<li>Some information about the first car</li>
+				<li>Most used car brands in the US 2018</li>
+				<li>Some awesome pictures on cars</li>
+			</ul>
+		</main><!--Avslutar det viktigaste på sidan-->
+	</body><!--Avslutar det man vill ska vara på sin hemsida-->
+</html><!--Avslutar kodningen i hemsidan-->
