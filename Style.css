@@ -9,7 +9,7 @@ h1{/*Påverkar allt inom h1 i html*/
 nav li{/*Påverkar allt inom nav li i html*/
 	display: inline-block;/*Gör att det inte sker ett radbyte efter alla element vilket gör det möjligt att element kan ligga brevid varandra*/
 	margin-right: 40px;/*Bildar mellanrum mellan element*/
-    list-style-type: none;/*Inga markörer i listan*/
+        list-style-type: none;/*Inga markörer i listan*/
 }
 nav a {/*Påverkar allt inom nav a i html*/
 	color: White;
