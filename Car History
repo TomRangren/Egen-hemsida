@@ -1,88 +1,64 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Toms Homepage/Car History</title>
+		<link href="Style.css" rel="Stylesheet"> 
+	</head>
+	<body>
+		<header>
+			<h1>Toms Homepage</h1>
+			<nav class="Car History">
+				<ul>
+					<li><a href="index.html">✪Home✪</a></li>
+					<li class="Annan färg">✪Car History✪ </li>
+					<li><a href="Pictures.html">✪Pictures✪</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="box white"><!---->
+			<h2 class="info">First Car</h2> <!---->
+				<p> Cars came into global use during the 20th century, and developed economies depend on them. 
+					The year 1886 is regarded as the birth year of the modern car when German inventor Karl Benz patented his Benz Patent-Motorwagen. 
+					Cars became widely available in the early 20th century. One of the first cars accessible to the masses was the 1908 Model T, an American car manufactured by the Ford Motor Company. 
+					Cars were rapidly adopted in the US, where they replaced animal-drawn carriages and carts, 
+					but took much longer to be accepted in Western Europe and other parts of the world.
+					Cars have controls for driving, parking, passenger comfort, and a variety of lights. 
+					Over the decades, additional features and controls have been added to vehicles, 
+					making them progressively more complex, but also more reliable and easier to operate.
+					These include rear reversing cameras, air conditioning, navigation systems, and in-car entertainment.
+					Most cars in use in the 2010s are propelled by an internal combustion engine, fueled by the combustion of fossil fuels. 
+					Electric cars, which were invented early in the history of the car, 
+					became commercially available in the 2000s and are predicted to cost less to buy than gasoline cars in the early 2020s.<!---->
 
-  <head>
-  <meta charset="UTF-8">
-    <title>Toms Homepage</title>
-<link href="Style.css" rel="Stylesheet"> 
-  </head>
-  <body>
-  <main>
-<h1>Toms Homepage</h1>
-  <nav class="Car History">
-  <ul>
-  <li><a href="Homepage.html">✪Home✪</a></li>
-   <li class="Annan färg">✪Car History✪ </li>
-    <li><a href="">✪Pictures✪</a></li>
-</ul>
-</nav>
-</main>
-<main class="box white">
-<h2 class="info">First Car</h2> 
-<p> Cars came into global use during the 20th century, and developed economies depend on them. 
-The year 1886 is regarded as the birth year of the modern car when German inventor Karl Benz patented his Benz Patent-Motorwagen. 
-Cars became widely available in the early 20th century. One of the first cars accessible to the masses was the 1908 Model T, an American car manufactured by the Ford Motor Company. 
-Cars were rapidly adopted in the US, where they replaced animal-drawn carriages and carts, 
-but took much longer to be accepted in Western Europe and other parts of the world.
-Cars have controls for driving, parking, passenger comfort, and a variety of lights. 
-Over the decades, additional features and controls have been added to vehicles, 
-making them progressively more complex, but also more reliable and easier to operate.
- These include rear reversing cameras, air conditioning, navigation systems, and in-car entertainment.
- Most cars in use in the 2010s are propelled by an internal combustion engine, fueled by the combustion of fossil fuels. 
- Electric cars, which were invented early in the history of the car, 
- became commercially available in the 2000s and are predicted to cost less to buy than gasoline cars in the early 2020s.
- </p>
-    <table>
-	<Caption>Most Used Cars 2018</Caption>
-  <tr>
-      <th>Brand</th>
-      <th>Model</th>
-        
-  </tr>
-  <tr>
-    <td>Toyota</td>
-    <td>F-Series</td>
-       
-  </tr>
-  <tr>
-    <td>Volkswagen</td>
-    <td>Corolla</td>
-       
-  </tr>
-  <tr>
-    <td>Ford</td>
-    <td>Civic</td>
-       
-  </tr>
-  <tr>
-    <td>Honda</td>
-     <td>Rav4</td>
-  </tr>
-  <tr>
-    <td>Nissan</td>
-    <td>X-Trail/Rogue</td>
-       
-  </tr>
-  <tr>
-    <td>Hyundai</td>
-    <td>Cr-V</td>
-       
-  </tr>
-  <tr>
-    <td>Chevrolet</td>
-    <td>Golf</td>
-       
-  </tr>
-  <tr>
-    <td>Suzuki</td>
-    <td>Passat/Magotan</td>
-       
-  </tr>
-  <tr>
-    <td>KIA</td>
-    <td>Silverado</td>
-   </tr>
-    </table>
-</main>
-  </body>
-</html>
+				</p><!---->
+		<table><!---->
+			<Caption>Most Used Cars 2018</Caption><!---->
+				<tr><!---->
+				  <th>Brand</th><!---->
+				  <th>Model</th><!---->
+					
+				</tr><!---->
+				<tr><!---->
+					<td>Toyota</td><!---->
+					<td>F-Series</td><!---->
+				   
+				</tr><!---->
+				<tr><!---->
+					<td>Volkswagen</td><!---->
+					<td>Corolla</td>  <!---->
+				</tr><!---->
+				<tr><!---->
+					<td>Ford</td><!---->
+					<td>Civic</td><!---->
+				</tr><!---->
+				<tr><!---->
+					<td>Honda</td><!---->
+					<td>Rav4</td><!---->
+				</tr><!---->
+		</table><!---->
+			<a href="https://www.youtube.com/watch?v=DL_mJeb6O04"> <img src="https://www.daimler.com/bilder/konzern/tradition/geschichte/anfaenge-des-automobils/benz-patent-motorwagen-w520xh208-cutout.png" alt="Picture on first car"> </a><!---->
+			<a class="Link2" href="https://en.wikipedia.org/wiki/Car">Where I got my information</a><!---->
+		</main><!---->
+	</body><!---->
+</html><!---->
