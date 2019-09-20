@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Toms Homepage/Pictures</title>
+		<link href="Style.css" rel="Stylesheet"> 
+	</head>
+	<body>
+		<header>
+			<h1>Toms Homepage</h1>
+			<nav class="Car History">
+				<ul>
+					<li><a href="index.html">✪Home✪</a></li>
+					<li><a href="Car%20History.html">✪Car History✪</a></li>
+					<li class="Annan Färg">✪Pictures✪</li>
+				</ul>
+			</nav>
+		</header>
+			<img class="Picture1" src="https://cdn.shopify.com/s/files/1/1705/8047/products/Snip20180330_69_1024x1024.png?v=1524216761" alt="Picture on Nissan GTR"> 
+			<img class="Picture2" src="https://www.automobilesreview.com/gallery/liberty-walk-nissan-gtr/liberty-walk-nissan-gtr-07.jpg" alt="Picture on Nissan GTR">
+	</body>
+ </html>
